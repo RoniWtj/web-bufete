@@ -1,0 +1,96 @@
+/* Encabezado fijo solo con logo y nombre */
+header {
+    background-color: #1E5631; /* Verde */
+    color: white;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+/* Contenedor que organiza el logo y el nombre */
+.contenedor-header {
+    display: flex;
+    align-items: center;
+}
+
+/* Ajustamos el logo */
+.logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+/* Centramos el nombre del bufete */
+.nombre-bufete {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Ajustamos el contenido principal debajo del encabezado */
+.contenido {
+    background-color: #F0F0F0; /* Fondo blanco-gris */
+    width: 90%;
+    max-width: 800px;
+    margin: 120px auto 40px; /* Deja espacio debajo del header */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Menú dentro del área blanca-gris */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black; /* Ahora en negro para mejor contraste */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Efecto al pasar el cursor */
+nav ul li a:hover {
+    color: #1E5631; /* Verde */
+}
+
+/* Diseño para las secciones */
+section {
+    margin: 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Botón de Facebook */
+.boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #1E5631;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #14542B;
+}
